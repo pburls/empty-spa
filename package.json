@@ -3,8 +3,15 @@
   "version": "0.1.0",
   "description": "An empty webpack bundled single page web application",
   "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Patrick Burls",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.1"
+  }
 }
